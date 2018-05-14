@@ -38,7 +38,7 @@ public class Main {
 			System.out.println("\n\nEmpresa ETT");
 			System.out.println("***************");
 			System.out.println("1.Acceso cliente\n"
-					+ "2.Acceso como administrador\n3.Acceso como intermediario\n");
+					+ "2.Acceso como administrador\n3.Acceso como intermediario\n4.Salir de la aplicacion");
 			System.out.print("\tTeclea opción: ");
 			try{
 			opc=sc.nextInt();
@@ -170,8 +170,11 @@ public class Main {
 				
 				
 				
+				break;
 				
-				
+			case 4:
+				System.out.println("\n--- ESPERAMOS VERTE PRONTO ---");
+				break;
 			}
 			
 		}while(opc!=4);
