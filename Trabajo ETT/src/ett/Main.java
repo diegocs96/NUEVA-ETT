@@ -20,7 +20,11 @@ import BBDD.BD_Cliente;
 import BBDD.BD_Intermediario;
 
 public class Main {
-//Probando
+/**
+ * @author Diego
+ * @param 
+ * Main de el proyecto
+ */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
